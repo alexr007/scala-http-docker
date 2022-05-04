@@ -1,0 +1,14 @@
+#### default
+GET http://localhost:8080
+
+#### remapped 1
+GET http://localhost:8081
+
+#### remapped 2
+GET http://localhost:8082
+
+####
+GET http://localhost:8080/hello/Jim
+
+####
+GET http://localhost:8080/abracadabra

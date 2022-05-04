@@ -1,0 +1,17 @@
+version: '3.3'
+
+services:
+
+  simple1:
+    image: scala-http-docker:0.0.1
+    restart: unless-stopped
+    ports:
+      - '127.0.0.1:8081:8080'
+    container_name: shd_1
+
+  simple2:
+    image: scala-http-docker:0.0.1
+    restart: unless-stopped
+    ports:
+      - '127.0.0.1:8082:8080'
+    container_name: shd_2
