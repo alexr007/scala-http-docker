@@ -1,3 +1,16 @@
+#### default: "body": null
+GET http://192.168.5.200:8080/?x=1
+
+#### default: "body": "qwe"
+GET http://192.168.5.200:8080/?x=1
+
+qwe
+
+#### default: "body": { "qwe": 1.5 }
+GET http://192.168.5.200:8080/a/b/c?x=1&x=2&x=3&q=qwe
+
+{"qwe":1.5}
+
 #### default
 GET http://localhost:8080
 
